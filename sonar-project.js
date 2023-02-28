@@ -4,8 +4,8 @@ sonarqubeScanner({
   serverUrl: 'http://ec2-15-207-114-82.ap-south-1.compute.amazonaws.com:9000/',
        options : {
 	    'sonar.projectDescription': 'This is a Node JS application',
-	    'sonar.projectName': 'nodejs-cloud4c-app',
-	    'sonar.projectKey':'nodejs-cloud4c-app',
+	    'sonar.projectName': 'demo-application-nodejs',
+	    'sonar.projectKey':'demo-application-nodejs',
 	    'sonar.login': 'admin',
 	    'sonar.password': 'admin',
             'sonar.projectVersion':'1.0',
