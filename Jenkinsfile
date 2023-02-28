@@ -4,11 +4,11 @@ node
         git 'https://github.com/ramakrishna8254/nodejs-app-cloud4c.git'
     }
      stage('Build'){
-        nodejs(nodeJSInstallationName: 'nodejs16.19.1'){
+        nodejs(nodeJSInstallationName: 'nodejs16.19.0'){
         sh "npm install"
     }
      stage('ExecuteSonarQubeReport'){
-        nodejs(nodeJSInstallationName: 'nodejs16.19.1'){
+        nodejs(nodeJSInstallationName: 'nodejs16.19.0'){
         sh "npm run sonar"
     }
     }
